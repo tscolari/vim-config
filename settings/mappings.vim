@@ -54,9 +54,6 @@ map ,` ysiw`
 " Movimentation
 " ===========================================
 
-"Go to last edit location with ,.
-nnoremap ,. '.
-
 " ,q to toggle quickfix window (where you have stuff like Ag)
 " " ,oq to open it back up (rare)
 nmap <silent> ,qc :cclose<CR>
@@ -100,6 +97,10 @@ nmap <silent> ,qo :copen<CR>
 nnoremap <silent> ,z :bp<CR>
 nnoremap <silent> ,x :bn<CR>
 
+" hit ,f to find the definition of the current class
+" this uses ctags. the standard way to get this is Ctrl-]
+nnoremap <silent> ,f <C-]>
+
 " ==============================
 " Window/Tab/Split Manipulation
 " ==============================
@@ -119,4 +120,3 @@ nnoremap <silent> ss <C-w>s
 
 "Clear current search highlight by double tapping //
 nmap <silent> // :nohlsearch<CR>
-

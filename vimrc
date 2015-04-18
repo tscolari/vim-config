@@ -2,7 +2,7 @@
 set runtimepath+=~/.vim/bundle/neobundle.vim/
 call neobundle#begin(expand('~/.vim/bundle/'))
 
-source ./bundle.vim
+runtime! bundle.vim
 
 call neobundle#end()
 
@@ -16,12 +16,12 @@ NeoBundleCheck
 "
 " Load configurations
 
-source ./settings/base.vim
-source ./settings/spelling.vim
-source ./settings/search.vim
-source ./settings/format.vim
-source ./settings/mappings.vim
-source ./settings/styles.vim
+runtime! settings/base.vim
+runtime! settings/spelling.vim
+runtime! settings/search.vim
+runtime! settings/format.vim
+runtime! settings/mappings.vim
+runtime! settings/styles.vim
 
 for f in split(glob('~/.vim/settings/plugins/*.vim'), '\n')
   exe 'source' f

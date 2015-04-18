@@ -4,10 +4,24 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 " Golang
 NeoBundle 'fatih/vim-go'
+NeoBundle 'jstemmer/gotags'
+
+" Ruby, Rails, Rake...
+NeoBundle 'ecomba/vim-ruby-refactoring'
+NeoBundle 'tpope/vim-rails.git'
+NeoBundle 'tpope/vim-rake.git'
+NeoBundle 'tpope/vim-rvm.git'
+NeoBundle 'vim-ruby/vim-ruby.git'
+NeoBundle 'vim-scripts/Specky.git'
+NeoBundle 'ck3g/vim-change-hash-syntax'
 
 " Languages
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'sheerun/vim-polyglot'
+NeoBundle 'honza/dockerfile.vim'
+NeoBundle 'elixir-lang/vim-elixir'
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'kchmck/vim-coffee-script'
 
 " Git
 NeoBundle 'tpope/vim-fugitive'
@@ -25,9 +39,10 @@ NeoBundle 'itspriddle/vim-jquery'
 
 " General text editing improvements...
 NeoBundle 'briandoll/change-inside-surroundings.vim'
-
-" Seartch plugins
-NeoBundle 'rking/ag.vim'
+NeoBundle 'tmhedberg/matchit'
+NeoBundle 'terryma/vim-multiple-cursors'
+NeoBundle 'vim-scripts/camelcasemotion'
+NeoBundle 'nelstrom/vim-visual-star-search'
 
 " General vim improvements
 NeoBundle 'xolox/vim-misc'
@@ -37,6 +52,13 @@ NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'xolox/vim-session'
 NeoBundle 'jszakmeister/vim-togglecursor'
 NeoBundle 'vim-scripts/AutoTag'
+NeoBundle 'bogado/file-line'
+NeoBundle 'rking/ag.vim'
+NeoBundle 'tpope/vim-endwise'
+NeoBundle 'tpope/vim-abolish'
+NeoBundle 'tpope/vim-repeat'
+NeoBundle 'tpope/vim-unimpaired'
+NeoBundle 'vim-scripts/lastpos.vim'
 
 " Commands
 NeoBundle 'tpope/vim-commentary'
@@ -50,6 +72,11 @@ NeoBundle 'dolio/vim-hybrid'
 NeoBundle 'chriskempson/base16-vim'
 NeoBundle 'luochen1990/rainbow'
 
+" Textobjects
+NeoBundle 'kana/vim-textobj-user'
+NeoBundle 'bootleq/vim-textobj-rubysymbol'
+NeoBundle 'nelstrom/vim-textobj-rubyblock'
+NeoBundle 'austintaylor/vim-indentobject'
 
 " Tmux
 NeoBundle 'christoomey/vim-tmux-navigator'

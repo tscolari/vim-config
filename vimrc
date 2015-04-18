@@ -17,6 +17,7 @@ NeoBundleCheck
 " Load configurations
 
 source ./settings/base.vim
+source ./settings/spelling.vim
 source ./settings/search.vim
 source ./settings/format.vim
 source ./settings/mappings.vim

@@ -45,3 +45,8 @@ set wildignore+=*.png,*.jpg,*.gif
 
 autocmd BufWritePre * :%s/\s\+$//e " Removes unwanted spaces befeore save
 
+" ================ Scrolling ========================
+
+set scrolloff=8         "Start scrolling when we're 8 lines away from margins
+set sidescrolloff=15
+set sidescroll=1

@@ -10,6 +10,8 @@ set showmode                    "Show current mode down the bottom
 set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
 set laststatus=2                "Show status line without needing to split
+set cursorline
+set guioptions=acg
 
 " This makes vim act like all other editors, buffers can
 " exist in the background without being in a window.

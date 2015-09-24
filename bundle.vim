@@ -81,6 +81,7 @@ NeoBundle 'dolio/vim-hybrid'
 NeoBundle 'chriskempson/base16-vim'
 NeoBundle 'luochen1990/rainbow'
 NeoBundle 'junegunn/goyo.vim'
+NeoBundle 'junegunn/limelight.vim'
 
 " Textobjects
 NeoBundle 'kana/vim-textobj-user'

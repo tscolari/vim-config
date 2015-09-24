@@ -20,8 +20,11 @@ NeoBundle 'scrooloose/syntastic'
 NeoBundle 'sheerun/vim-polyglot'
 NeoBundle 'honza/dockerfile.vim'
 NeoBundle 'elixir-lang/vim-elixir'
-NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'kchmck/vim-coffee-script'
+
+" Javascript
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'moll/vim-node'
 
 " Git
 NeoBundle 'tpope/vim-fugitive'
@@ -77,6 +80,7 @@ NeoBundle 'bling/vim-airline'
 NeoBundle 'dolio/vim-hybrid'
 NeoBundle 'chriskempson/base16-vim'
 NeoBundle 'luochen1990/rainbow'
+NeoBundle 'junegunn/goyo.vim'
 
 " Textobjects
 NeoBundle 'kana/vim-textobj-user'

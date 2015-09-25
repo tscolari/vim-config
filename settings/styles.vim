@@ -89,3 +89,4 @@ map <silent><F1> :ColorsPeek<cr>
 set background=dark
 let g:base16colorspace=256
 call styles#_change(0)
+hi MatchParen cterm=none ctermbg=black ctermfg=blue

@@ -68,6 +68,7 @@ NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'vim-scripts/lastpos.vim'
 NeoBundle 'vim-scripts/AnsiEsc.vim.git'
 NeoBundle 'godlygeek/tabular'
+NeoBundle 'easymotion/vim-easymotion'
 
 " Commands
 NeoBundle 'tpope/vim-commentary'

@@ -20,6 +20,7 @@ set hidden
 
 "turn on syntax highlighting
 syntax on
+set regexpengine=1
 
 " reloads the file if changed
 set autoread
@@ -57,4 +58,3 @@ set nowb
 silent !mkdir ~/.vim/backups > /dev/null 2>&1
 set undodir=~/.vim/backups
 set undofile
-

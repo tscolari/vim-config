@@ -1,3 +1,5 @@
+let loaded_matchparen = 1
+
 " Required:
 set runtimepath+=~/.vim/bundle/neobundle.vim/
 call neobundle#begin(expand('~/.vim/bundle/'))
